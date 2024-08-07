@@ -1,4 +1,14 @@
-import lens from '@/lens.js';
+import lens, { view } from './lens';
+
+type Address = {
+    city: string;
+    zip: string;
+};
+
+type User = {
+    name: string;
+    address: Address;
+};
 
 describe('lens,', () => {
     const user = {
