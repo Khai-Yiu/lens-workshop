@@ -26,6 +26,7 @@
     "vite": "^5.3.3"
   },
   "dependencies": {
-    "inquirer": "^9.2.15"
+    "inquirer": "^9.2.15",
+    "ramda": "^0.30.1"
   }
 }
